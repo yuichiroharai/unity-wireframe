@@ -88,6 +88,7 @@ public class Wireframe
 
 
 
+    /* https://github.com/mrdoob/three.js/blob/master/src/geometries/EdgesGeometry.js */
     public static int[] MakeIndicesOnlyEdges(int[] triangles, Vector3[] vertices, float thresholdAngle)
     {
         double thresholdDot = Math.Cos(Math.PI / 180.0 * thresholdAngle);
